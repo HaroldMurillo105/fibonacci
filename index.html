@@ -1,0 +1,31 @@
+<!DOCTYPE html>	
+<html>
+<head>
+	
+<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>   
+<script>            
+var enterednumber = prompt("Enter Range (please input an integer higher than 0) :", " "), one= 0, two=1;
+ 
+if (enterednumber <=1)
+document.write("Fibonacci sequence with range of ",enterednumber, " :", "<br/>","<br/>",one, );
+else
+document.write("Fibonacci sequence with range of ",enterednumber, " :", "<br/>","<br/>",one, ",",two,",");
+var h=2;
+while( h<enterednumber)
+{   
+  var next= one + two;
+  one= two;
+  two= next;
+  document.write(" ",next,", ");
+  h++;
+} 
+</script>      
+            
+	</body>
+
+</html>
+
