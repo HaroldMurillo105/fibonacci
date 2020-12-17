@@ -1,8 +1,8 @@
 body{
-    background-color: turquoise;
+    background-image:url(back.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     font-size: 50px;
-    color:rebeccapurple;
+    color:whitesmoke;
 }
